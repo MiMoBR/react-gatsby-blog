@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("D:\\Trabalho\\rnco\\react\\react-gatsby-blog\\src\\pages\\404.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("D:\\Trabalho\\rnco\\react\\react-gatsby-blog\\src\\pages\\index.js"))),
   "component---src-pages-page-2-js": hot(preferDefault(require("D:\\Trabalho\\rnco\\react\\react-gatsby-blog\\src\\pages\\page-2.js"))),
+  "component---src-pages-photos-js": hot(preferDefault(require("D:\\Trabalho\\rnco\\react\\react-gatsby-blog\\src\\pages\\photos.js"))),
   "component---src-pages-using-typescript-tsx": hot(preferDefault(require("D:\\Trabalho\\rnco\\react\\react-gatsby-blog\\src\\pages\\using-typescript.tsx")))
 }
 
