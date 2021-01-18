@@ -1,3 +1,7 @@
 .imgFluid{
     border: 2px solid black;
 }
+
+.bgImg{
+    height: 10rem;
+}
