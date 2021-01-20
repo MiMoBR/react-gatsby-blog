@@ -8,6 +8,8 @@ import SEO from "../components/seo"
 
 import "../pages/Photos/Photos.css"
 
+import Figuramap from "./figuramap"
+
 const Photos = () => {
 
     const data = useStaticQuery(graphql`
@@ -45,6 +47,12 @@ const Photos = () => {
             <SEO title="My photos" />
             
             <h1>Using IMG Gatsby</h1>
+            
+            <hr/>
+            <p>MAP</p>
+            <Figuramap/>
+            <hr/>
+
             <p>https://www.gatsbyjs.com/plugins/gatsby-image/</p>
             <p>npm install gatsby-image</p>
             <p>npm install gatsby-transformer-sharp gatsby-plugin-sharp</p>
@@ -65,6 +73,8 @@ const Photos = () => {
                 ))}
             </div>
     
+            <h2 id="theHrefMap">The Map has to come here!</h2>
+
             <Link to="/">Go to Main page</Link> <br />
         </Layout>
     )
